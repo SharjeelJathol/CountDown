@@ -1,0 +1,38 @@
+*{
+    /*dont let default values waste your time and adjust to your needs*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    font-size: 15vh;
+    text-align: center;
+}
+
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;/*cover the background on all available space*/
+    background-repeat: no-repeat;/*dont repeat background image*/
+    background-position: center;/*always show the center of the background image by adjusting it*/
+    min-height: 100vh;/*takes the full available height because of vh*/
+    display: flex;/*it uses the available space by adjusting the items (flexibility)*/
+    flex-direction: column;/*to change the direction of flex property*/
+    justify-content: center ;/*it takes the content in the center of top-bottom*/
+    /* text-align: center; */
+    align-items: center;
+}
+.timer-container{
+    display: flex;
+    padding-top: 3vh;
+}
+
+.timer{
+    text-align: center;
+    margin: 0px 3vh 0px 3vh;
+}
+
+.number{
+    font-size: 10vh;
+    line-height: 1;/*distance from the lines above and bottom*/
+}
