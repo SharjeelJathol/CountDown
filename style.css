@@ -6,7 +6,7 @@
 }
 
 h1{
-    font-size: 15vh;
+    font-size: 12vh;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ body{
     min-height: 100vh;/*takes the full available height because of vh*/
     display: flex;/*it uses the available space by adjusting the items (flexibility)*/
     flex-direction: column;/*to change the direction of flex property*/
-    justify-content: center ;/*it takes the content in the center of top-bottom*/
+    justify-content: center ;/*it takes the content in the center of top-bottom because of flex-direction column*/
     /* text-align: center; */
     align-items: center;
 }
@@ -27,12 +27,17 @@ body{
     padding-top: 3vh;
 }
 
+.text{
+    font-size: 2.5v;
+}
+
 .timer{
     text-align: center;
-    margin: 0px 3vh 0px 3vh;
+    align-items: center;
+    margin: 0px 2.5vh 0px 2.5vh;
 }
 
 .number{
-    font-size: 10vh;
+    font-size: 7vh;
     line-height: 1;/*distance from the lines above and bottom*/
 }
